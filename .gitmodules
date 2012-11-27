@@ -1,3 +1,6 @@
 [submodule "templates"]
 	path = templates
 	url = https://github.com/JoshHeitzman/grail42_templates.git
+[submodule "core"]
+	path = core
+	url = https://github.com/JoshHeitzman/grail42_core.git
