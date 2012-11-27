@@ -1,0 +1,3 @@
+[submodule "templates"]
+	path = templates
+	url = https://github.com/JoshHeitzman/grail42_templates.git
