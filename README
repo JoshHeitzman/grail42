@@ -1,4 +1,44 @@
-TODO: add project description and usage notes.
+Grail42 is a master project that links together the state of the subprojects 
+listed below.
+
+Grail42 Core
+------------
+
+At present the project just provides a few tools that simplify faux console
+applications on Android and Google Native Client.  The example Visual Studio 
+2010 project that these tools have been tested with is located in the sibling
+project Grail42 Templates (see the Grail42 project referenced above).
+
+Grail42 Templates
+-----------------
+
+This subproject currently contains the example code projects listed below and 
+in the near future a Python script will be added to clone projects so that the
+examples can be easily used as templates for new projects.
+
+Hello World Console
+
+  Demonstrates targeting the Android NDK, the Chrome Native Client SDK, and the 
+  Windows SDK all from the same Visual Studio 2010 project.  Both 32-bit and 
+  64-bit platforms are supported for Windows and Chrome Native Client (NaCl).
+  
+  Also demonstrates creating a faux console app for Android that allows the apps 
+  stdout to be easily emitted in a Windows command prompt via the batch file 
+  %grail42_core_cmd%\android\faux_console\run_app.cmd supplied by the Grail42 
+  Core sibling project (see the Grail42 project referenced above).
+  
+  The NaCl platform is configured by default to run from the standalone 
+  commandline tool sel_ldr*.exe rather than from Chrome to provide a consistent 
+  console experience.  When run in Chrome, the project demonstrates doing so 
+  as a faux console app that allows the plug-ins stdout to be easily emitted 
+  in a Windows command prompt via the batch file that also starts and stops 
+  the necessary simple web server.  The batch file is supplied by the Grail42 
+  Core project at %grail42_core_cmd%\nacl\faux_console\run_nexe_in_chrome.cmd 
+  and %grail42_core_cmd%\nacl\run_nexe_standalone.cmd providesa convienence 
+  batch file o run the plug-in standalone in sel_ldr*.exe
+
+
+--------------------------------------------------------------------------------
 
 This work is distributed under the Boost Software License, Version 1.0 and the
 adjacent file named LICENSE_1_0.txt provides the full text of license.
