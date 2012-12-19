@@ -4,17 +4,26 @@ listed below.
 Grail42 Core
 ------------
 
-At present the project just provides a few tools that simplify faux console
-applications on Android and Google Native Client.  The example Visual Studio 
-2010 project that these tools have been tested with is located in the sibling
-project Grail42 Templates (see the Grail42 project referenced above).
+This subproject provides a C++ library that normalizes the usage interface and output of the 
+Template Unit Test Framework (TUT) and Google Test (gtest), a few tools that simplify faux console 
+applications on Android and Google Native Client.
+
+Detailed at: https://github.com/JoshHeitzman/grail42_core
 
 Grail42 Templates
 -----------------
 
-This subproject currently contains the example code projects listed below and 
-in the near future a Python script will be added to clone projects so that the
-examples can be easily used as templates for new projects.
+This subproject currently contains the template/example code projects listed below and a Python 
+script to clone the templates for use as new projects.
+
+Detailed at:  https://github.com/JoshHeitzman/grail42_templates
+
+Unit Test
+
+  Demonstrates a skeletal unit test project targeting Android NDK, the Chrome Native Client SDK, 
+  and the Windows SDK all the same Visual Studio 2010 project.  Both 32-bit and 64-bit platforms 
+  are supported for Windows and Chrome Native Client (NaCl).  Makes use of libraries and tools
+  supplied by the the Grail42 Core sibling project (see the Grail42 project referenced above).
 
 Hello World Console
 
@@ -22,21 +31,9 @@ Hello World Console
   Windows SDK all from the same Visual Studio 2010 project.  Both 32-bit and 
   64-bit platforms are supported for Windows and Chrome Native Client (NaCl).
   
-  Also demonstrates creating a faux console app for Android that allows the apps 
-  stdout to be easily emitted in a Windows command prompt via the batch file 
-  %grail42_core_cmd%\android\faux_console\run_app.cmd supplied by the Grail42 
-  Core sibling project (see the Grail42 project referenced above).
-  
-  The NaCl platform is configured by default to run from the standalone 
-  commandline tool sel_ldr*.exe rather than from Chrome to provide a consistent 
-  console experience.  When run in Chrome, the project demonstrates doing so 
-  as a faux console app that allows the plug-ins stdout to be easily emitted 
-  in a Windows command prompt via the batch file that also starts and stops 
-  the necessary simple web server.  The batch file is supplied by the Grail42 
-  Core project at %grail42_core_cmd%\nacl\faux_console\run_nexe_in_chrome.cmd 
-  and %grail42_core_cmd%\nacl\run_nexe_standalone.cmd providesa convienence 
-  batch file o run the plug-in standalone in sel_ldr*.exe
+C++ Empty Header
 
+  C++ header file with header guard using GUID and #pragma once macro.
 
 --------------------------------------------------------------------------------
 
