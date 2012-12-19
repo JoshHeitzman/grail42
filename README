@@ -4,26 +4,27 @@ listed below.
 Grail42 Core
 ------------
 
-This subproject provides a C++ library that normalizes the usage interface and output of the 
-Template Unit Test Framework (TUT) and Google Test (gtest), a few tools that simplify faux console 
-applications on Android and Google Native Client.
+This subproject provides a C++ library that normalizes the usage interface and output of 
+the Template Unit Test Framework (TUT) and Google Test (gtest), a few tools that 
+simplify faux console applications on Android and Google Native Client.
 
 Detailed at: https://github.com/JoshHeitzman/grail42_core
 
 Grail42 Templates
 -----------------
 
-This subproject currently contains the template/example code projects listed below and a Python 
-script to clone the templates for use as new projects.
+This subproject currently contains the template/example code projects listed below and a
+Python script to clone the templates for use as new projects.
 
 Detailed at:  https://github.com/JoshHeitzman/grail42_templates
 
 Unit Test
 
-  Demonstrates a skeletal unit test project targeting Android NDK, the Chrome Native Client SDK, 
-  and the Windows SDK all the same Visual Studio 2010 project.  Both 32-bit and 64-bit platforms 
-  are supported for Windows and Chrome Native Client (NaCl).  Makes use of libraries and tools
-  supplied by the the Grail42 Core sibling project (see the Grail42 project referenced above).
+  Demonstrates a skeletal unit test project targeting Android NDK, the Chrome Native 
+  Client SDK, and the Windows SDK all the same Visual Studio 2010 project.  Both 32-bit 
+  and 64-bit platforms are supported for Windows and Chrome Native Client (NaCl).  Makes 
+  use of libraries and tools supplied by the the Grail42 Core sibling project (see the 
+  Grail42 project referenced above).
 
 Hello World Console
 
