@@ -5,7 +5,7 @@ Grail42 Core
 ------------
 
 This subproject provides a C++ library that normalizes the usage interface and output of 
-the Template Unit Test Framework (TUT) and Google Test (gtest), a few tools that 
+the Template Unit Test Framework (TUT), Google Test (gtest), CppUTest, a few tools that 
 simplify faux console applications on Android and Google Native Client.
 
 Detailed at: https://github.com/JoshHeitzman/grail42_core
